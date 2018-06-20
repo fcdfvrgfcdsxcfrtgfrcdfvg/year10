@@ -1,0 +1,70 @@
+body {
+    font-family: "Alegreya Sans";
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.content {
+    background-color: black;
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    /* CENTER YOUR DIVISION */
+    border: 2pxs solid #F4C95D;
+
+}
+
+.header {
+    font-family: "Sofia";
+    font-size: 14px;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    height: 50px;
+    border: 2px solid;
+    text-align: center;
+    padding: 2px;
+}
+
+.navigation {
+    width: 40%;
+    background-color: lightcyan;
+    color: black;
+    height: 200px;
+    float: left;
+}
+
+.main {
+    height: 200px;
+    background-color: lightblue;
+    float: left;
+    width: 60%;
+    color: black;
+}
+
+.footer {
+    clear: both;
+    background-color: linen;
+}
+
+.vertical-menu a {
+    background-color: lightcyan;
+    /* Grey background color */
+    color: black;
+    border: 2px solid;
+    /* Black text color */
+    display: block;
+    /* Make the links appear below each other */
+    padding: 8px;
+    /* Add some padding */
+    text-decoration: none;
+    /* Remove underline from links */
+}
+
+.vertical-menu a.active {
+    background-color: lightcyan
+    /*Dark grey backgroundon mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #2E1F27 color:white;
+}
