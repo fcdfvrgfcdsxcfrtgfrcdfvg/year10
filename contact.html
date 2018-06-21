@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+
+
+<HTML>
+
+<head>
+
+    <title>This is the contact page</title>
+      <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="nav">
+            <ul>
+                <li class="home"><a href="basiclayout.html">Home</a></li>
+                <li class="tutorials">
+                    <a class="active" href="index.html"> Photography</a></li>
+                <li class="about"><a href="singing.html">About Me</a></li>
+                <li class="news"><a href="technology.html">Technology</a></li>
+                <li class="Progress"><a href="codelearning.html">My progress</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+                <li class="Debate"><a href="debate1.html">Debate</a></li>
+                <img class=Righy src="images/Banner.png"  height="50px" width="100">  
+            </ul>
+        </div>
+    <h3>
+    This is where you can find us
+    </h3>
+
+
+    <!-- The video -->
+<video autoplay muted loop id="myVideo">
+  <source src="678598981.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+    <div class="nav">
+            <ul>
+                <li class="home"><a href="basiclayout.html">Home</a></li>
+                <li class="tutorials">
+                    <a class="active" href="index.html"> Photography</a></li>
+                <li class="about"><a href="singing.html">About Me</a></li>
+                <li class="news"><a href="technology.html">Technology</a></li>
+                <li class="Progress"><a href="codelearning.html">My progress</a></li>
+                <li class="contact"><a href="contact.html">Contact</a></li>
+                <li class="Debate"><a href="debate1.html">Debate</a></li>
+                <img class=Righy src="images/Banner.png"  height="50px" width="100">  
+            </ul>
+        </div>
+  <h1>This is where you can find us</h1>
+  <p>In the Beautiful city called Auckland</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  
+</div>
+    <div class="content2">
+    <button id="myBtn" onclick="myFunction()">Pause</button>
+    </div>
+    <script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+// Get the button
+var btn = document.getElementById("myBtn");
+
+// Pause and play the video, and change the button text
+function myFunction() {
+    if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+    } else {
+        video.pause();
+        btn.innerHTML = "Play";
+    }
+}
+</script>
+
+</body>
+
+
+
+
+
+</HTML>
